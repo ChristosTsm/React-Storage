@@ -12,7 +12,7 @@ const index = () => {
 	return (
 		<div className="header">
 			<div className="header__logo">
-				<img src={Logo} alt="Logo" />
+				<img src={Logo} />
 				<span>Drive</span>
 			</div>
 			<div className="header__search__container">

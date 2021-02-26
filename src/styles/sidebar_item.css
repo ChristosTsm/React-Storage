@@ -1,0 +1,23 @@
+.sidebar__item {
+	display: flex;
+	padding: 10px 0;
+	border-radius: 0 100px 100px 0;
+	transition: 150ms;
+}
+
+.sidebar__item:hover {
+	background: #e2e2e2;
+}
+
+.sidebar__item__arrow {
+	width: 28px;
+	margin-left: 12px;
+}
+
+.sidebar__item__main {
+	display: flex;
+}
+
+.sidebar__item__main p {
+	margin-left: 12px;
+}

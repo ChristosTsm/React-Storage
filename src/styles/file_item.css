@@ -1,0 +1,24 @@
+.file__item {
+	border-bottom: 2px solid #ff00b8;
+}
+
+.file__item a {
+	display: flex;
+	height: 100%;
+	text-decoration: none;
+	color: #585858;
+	align-items: center;
+}
+
+.file__item > a > div {
+	display: flex;
+	align-items: center;
+}
+
+.file__item > a > div > * {
+	margin: 10px;
+}
+
+.file__item--left {
+	flex: 1;
+}
